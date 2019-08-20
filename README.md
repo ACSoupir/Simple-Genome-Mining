@@ -1,5 +1,5 @@
 # Simple-Genome-Mining
-Simple script to take *.fasta annotation files and compares that to a characteristic key for whether individual annotation files displayed a phenotype or not. Hypothetical proteins are removed and then the positive phenotype is compared to the negative phenotype for the difference in genome annotated genes.
+Simple script to take *protein* *.fasta annotation files and compares that to a characteristic key for whether individual annotation files displayed a phenotype or not. Hypothetical proteins are removed and then the positive phenotype is compared to the negative phenotype for the difference in genome annotated proteins.
 
 # Annotations
 The annotations for me were created using Prokka and the protein sequence fasta was saved in a folder called 'Annotations' within the project folder. A characteristic key was created within the project folder; first column is the annotation file under the heading Genome, then the following columns as phenotypes that have either a 1 or 0 in them to indicate whether the bacteria that the genome came from displayed that phenotype.
